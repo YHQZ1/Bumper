@@ -1,10 +1,13 @@
+<div align="center">
+
+# Bumper
 ![Rust](https://img.shields.io/badge/Rust-1.78-000000?style=flat-square&logo=rust&logoColor=white)
-
-# bumper
-
+<br/>
 A bump allocator (arena/region allocator) built from scratch in Rust.
 
 Pre-allocates a fixed memory block upfront and hands out slices via pointer bumping — zero per-object overhead, no garbage collector, automatic cleanup on drop.
+
+</div>
 
 ---
 
