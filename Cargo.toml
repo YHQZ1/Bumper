@@ -1,5 +1,5 @@
 [package]
-name = "bumper"
+name = "bumper-alloc"
 version = "0.1.0"
 edition = "2021"
 description = "A from-scratch bump/arena allocator in Rust. Linear allocation, zero per-object overhead, automatic cleanup."
