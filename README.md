@@ -1,6 +1,7 @@
 <div align="center">
 
 # Bumper
+
 ![Rust](https://img.shields.io/badge/Rust-1.78-000000?style=flat-square&logo=rust&logoColor=white)
 <br/>
 A bump allocator (arena/region allocator) built from scratch in Rust.

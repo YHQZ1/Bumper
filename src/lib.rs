@@ -1,4 +1,3 @@
-use std::alloc::{alloc, dealloc, Layout};
 use std::ptr;
 
 pub struct BumpAllocator {
