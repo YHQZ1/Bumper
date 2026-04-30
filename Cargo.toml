@@ -4,8 +4,10 @@ version = "0.1.0"
 edition = "2021"
 description = "A from-scratch bump/arena allocator in Rust. Linear allocation, zero per-object overhead, automatic cleanup."
 license = "MIT"
-
-[dependencies]
+repository = "https://github.com/YHQZ1/Bumper"
+keywords = ["allocator", "bump", "arena", "memory", "no-std"]
+categories = ["memory-management", "no-std"]
+readme = "README.md"
 
 [dev-dependencies]
 criterion = { version = "0.5", features = ["html_reports"] }
