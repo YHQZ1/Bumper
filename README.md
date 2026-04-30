@@ -3,6 +3,7 @@
 # Bumper
 
 ![Rust](https://img.shields.io/badge/Rust-1.78-000000?style=flat-square&logo=rust&logoColor=white)
+![crates.io](https://img.shields.io/crates/v/bumper-alloc?style=flat-square&logo=rust)
 <br/>
 A bump allocator (arena/region allocator) built from scratch in Rust.
 
@@ -56,7 +57,7 @@ HTML reports are generated at `target/criterion/report/index.html`.
 ## Usage
 
 ```rust
-use bumper::BumpAllocator;
+use bumper_alloc::BumpAllocator;
 
 // Create an arena with 64KB of memory
 let mut arena = BumpAllocator::new(1024 * 64);

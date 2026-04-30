@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use bumper::BumpAllocator;
+use bumper_alloc::BumpAllocator;
 
 #[derive(Debug)]
 struct Point {

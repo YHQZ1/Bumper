@@ -1,4 +1,4 @@
-use bumper::BumpAllocator;
+use bumper_alloc::BumpAllocator;
 
 #[derive(Debug)]
 struct Particle {
